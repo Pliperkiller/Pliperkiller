@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Carlos Felipe Caro Arroyave</h1>
 <h3 align="center">Data scientist/analyst and game dev programmer.</h3>
 
-- 🔭 I’m currently working on [Natural language processing (NLP)](https://github.com/Pliperkiller/dataton2022-Siddhartha.git)
+- 🔭 I’m currently working on [Game Development and computer vission]
 
 - 👯 I’m looking to collaborate on **Image processing via NURBS-ML**
 
