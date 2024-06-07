@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Carlos Felipe Caro Arroyave</h1>
 <h3 align="center">Data scientist/analyst and game dev programmer.</h3>
 
-- 🔭 I’m currently working on [Game Development and computer vission]
+- 🔭 I’m currently working on [Data Warehousing and Data Engineering]
 
-- 👯 I’m looking to collaborate on **Image processing via NURBS-ML**
+- 👯 I’m looking to collaborate on **Data management and big data**
 
 - 📫 How to reach me **pip.kro@gmail.com**
 
