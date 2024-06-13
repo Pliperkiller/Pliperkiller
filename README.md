@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Carlos Felipe Caro Arroyave</h1>
-<h3 align="center">Data scientist/analyst and game dev programmer.</h3>
+<h3 align="center">DWH, BACKEND and GAME developer.</h3>
 
 - 🔭 I’m currently working on [Data Warehousing and Data Engineering]
 
