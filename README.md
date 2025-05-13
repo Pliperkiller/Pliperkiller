@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on [Data Engineering]
 
-- 👯 I’m looking to collaborate on **Data management and big data**
+- 👯 I’m looking to collaborate on **ML Engineering**
 
 - 📫 How to reach me **pip.kro@gmail.com**
 
