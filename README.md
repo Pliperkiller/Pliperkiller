@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Carlos Felipe Caro Arroyave</h1>
 <h3 align="center">Data engineer and backend developer.</h3>
 
-- 🔭 I’m currently working on [Data Engineering]
+- 🔭 I’m currently working on **Data Engineering**
 
 - 👯 I’m looking to collaborate on **ML Engineering**
 
