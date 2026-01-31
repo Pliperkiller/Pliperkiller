@@ -50,9 +50,8 @@ I specialize in **software architecture for AI-driven processes**, focusing on i
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| **Trad-O** | Full-stack algorithmic trading framework with backtesting, optimization (Bayesian, Genetic), and 12+ trading strategies | Python, FastAPI, React, scikit-learn |
-| **MinMaxer** | ML model for detecting market min/max points using Random Forest | Python, scikit-learn, joblib |
-| **LAUREN** | Local AI agent for code editing with Ollama integration | Python, Typer, SQLite |
+| [**Trad-O**](https://github.com/Pliperkiller/Trad-O) | Full-stack algorithmic trading framework: 12 strategies, 30+ indicators, ML models, optimization (Bayesian/Genetic), and React dashboard | Python, FastAPI, React, scikit-learn |
+| [**LAUREN AI**](https://github.com/Pliperkiller/lauren-ai) | Local AI agent powered by Ollama for code editing, system management, and trading integration (21 tools) | Python, Ollama, SQLite, Typer |
 | [PhyNancy](https://github.com/Pliperkiller/PhyNancy) | Finance exploratory data analysis workboard | Python, Jupyter |
 | [cookiecutter-flask-Hexagonal](https://github.com/Pliperkiller/cookiecutter-flask-Hexagonal) | Flask microservice template with Hexagonal Architecture | Python, Flask |
 | [binance-API-Downloader](https://github.com/Pliperkiller/binance-API-Downloader) | Crypto market data downloader | Python, CCXT |
@@ -108,16 +107,18 @@ I specialize in **software architecture for AI-driven processes**, focusing on i
 ### Side Projects & Learning
 
 ```
-📊 Trad-O — Algorithmic Trading Framework
-   ├── 12 strategies (MA Crossover, Mean Reversion, ML-based)
-   ├── 30+ technical indicators + ML indicators
-   ├── Bayesian & Genetic optimization
-   └── Paper trading with multi-broker support (CCXT + IB)
+📊 Trad-O — Full-Stack Algorithmic Trading Platform
+   ├── Trad-loop: Core engine + REST/WebSocket APIs
+   ├── fyGraphr: React dashboard with real-time charting
+   ├── MinMaxer: ML models for market turning points (78% accuracy)
+   ├── Optimus: Advanced optimization (100+ features)
+   └── CLI: Typer-based command interface
 
-🤖 LAUREN — Local AI Agent
-   ├── Ollama integration for local LLMs
+🤖 LAUREN AI — Local AI Agent
+   ├── 100% local with Ollama (llama3, deepseek-coder)
    ├── ReAct pattern orchestration
-   └── 21 tools including trading integration
+   ├── 21 tools: file ops, trading integration, memory system
+   └── Direct bridge to Trad-O for strategy generation
 
 🎯 Currently Learning
    ├── MLOps & model deployment pipelines
@@ -134,13 +135,3 @@ I specialize in **software architecture for AI-driven processes**, focusing on i
 | **Software Engineering Specialist** | Instituto Tecnológico Metropolitano | 2025 |
 | **Data Science Program** | Correlation One / MinTIC | 2022 |
 | **B.S. Electrical Engineering** | Universidad Nacional de Colombia | 2017 |
-
----
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Pliperkiller&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pliperkiller&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
