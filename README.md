@@ -1,8 +1,8 @@
 <h1 align="center">Carlos Felipe Caro Arroyave</h1>
 
 <p align="center">
-  <strong>Data Engineer | ML Engineer | Software Architect</strong><br>
-  Specializing in AI-driven software architecture and scalable ML systems
+  <strong>Data Engineer | MLOps | ML Platform</strong><br>
+  Building data platforms and the infrastructure ML runs on
 </p>
 
 <p align="center">
@@ -16,32 +16,33 @@
 
 ### About Me
 
-I specialize in **software architecture for AI-driven processes**, focusing on integrating machine learning into scalable production systems. I combine technical research with practical implementation to design intelligent solutions that transform business processes.
+I build **data platforms and production ML infrastructure**: pipelines, feature and training data, retraining loops, and model serving. My path runs from analytics into data engineering, and now into the MLOps layer that keeps models alive in production.
 
-- 🔭 **Current role**: Data Migration Engineer @ Rops.io — designing cloud-native pipelines with AWS
-- 🧠 **Side projects**: Algorithmic trading frameworks with ML-based optimization
-- 📊 **Experience**: 3+ years in ETL/ELT, data quality, and cloud infrastructure (AWS, Azure)
-- 🎓 **Education**: Software Engineering Specialist (2025) · Data Science (Correlation One) · Electrical Engineering (UNAL)
+- 🔭 **Current role**: Data Migration Engineer @ Rops.io — data pipelines and a multi-tenant document-AI platform on AWS
+- 🧪 **Flagship project**: CreditScope, an end-to-end credit scoring MLOps system
+- 📊 **Experience**: 5+ years in ETL/ELT, data quality, cloud infrastructure, and MLOps (AWS, Azure)
+- 🎓 **Education**: M.Sc. Applied Mathematics, in progress (PINNs research) · Software Engineering Specialist · Electrical Engineering (UNAL)
 
 ---
 
 ### Professional Highlights
 
 ```
-📈 Data Migration @ Rops.io (2025-Present)
-   • 7 automated migration pipelines — 1.5M records/hour
+📈 Data Migration & Document AI @ Rops.io (2025-Present)
+   • Multi-tenant document-AI platform (50+ tenants): human-in-the-loop
+     retraining + QLoRA fine-tuning, extraction accuracy 80% → 99%
+   • 7 automated migration pipelines — 1.5M records/hour, zero data loss
    • 65% reduction in client downtime during ERP transitions
-   • 99.8% success rate across all data imports
 
-🏦 Data Engineering @ IAS Software (2023-2025)  
+🏦 Data Engineering @ IAS Software (2023-2025)
+   • 8TB cloud migration to serverless AWS on a Medallion architecture
    • 80% reduction in report generation time
-   • 8TB cloud migration to serverless infrastructure
    • 40% reduction in operational costs
 
 🎯 Data Science @ Emtelco (2022-2023)
    • NLP sentiment analysis — 85% accuracy on call transcripts
    • ML audio classification — 70% efficiency gain
-   • 30% increase in processing throughput
+   • Power BI & Streamlit dashboards used daily by operations teams
 ```
 
 ---
@@ -50,11 +51,11 @@ I specialize in **software architecture for AI-driven processes**, focusing on i
 
 | Project | Description | Stack |
 |---------|-------------|-------|
+| [**CreditScope**](https://github.com/Pliperkiller) | End-to-end credit scoring MLOps system: PySpark Medallion pipeline, Feast feature store, MLflow tracking & registry, FastAPI serving, Evidently drift monitoring, CI/CD | PySpark, Feast, MLflow, FastAPI |
 | [**Trad-O**](https://github.com/Pliperkiller/Trad-O) | Full-stack algorithmic trading framework: 12 strategies, 30+ indicators, ML models, optimization (Bayesian/Genetic), and React dashboard | Python, FastAPI, React, scikit-learn |
-| [**LAUREN AI**](https://github.com/Pliperkiller/lauren-ai) | Local AI agent powered by Ollama for code editing, system management, and trading integration (21 tools) | Python, Ollama, SQLite, Typer |
-| [PhyNancy](https://github.com/Pliperkiller/PhyNancy) | Finance exploratory data analysis workboard | Python, Jupyter |
+| [**LAUREN AI**](https://github.com/Pliperkiller/lauren-ai) | Self-hosted AI agent for code editing, system management, and trading integration (21 tools), distributed across home infrastructure | Python, Ollama, SQLite, Typer |
+| [**Flowlite**](https://github.com/Pliperkiller/Flowlite-Personal-Finance) | Event-driven personal finance app: FastAPI microservices, JWT auth, PostgreSQL, RabbitMQ messaging | Python, FastAPI, Docker, RabbitMQ |
 | [cookiecutter-flask-Hexagonal](https://github.com/Pliperkiller/cookiecutter-flask-Hexagonal) | Flask microservice template with Hexagonal Architecture | Python, Flask |
-| [binance-API-Downloader](https://github.com/Pliperkiller/binance-API-Downloader) | Crypto market data downloader | Python, CCXT |
 
 ---
 
@@ -69,21 +70,32 @@ I specialize in **software architecture for AI-driven processes**, focusing on i
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript"/>
 </p>
 
-**Data & ML**
+**Data Engineering**
 <p>
-  <img src="https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white" alt="pandas"/>
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white" alt="scikit-learn"/>
   <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat&logo=apache-spark&logoColor=white" alt="Spark"/>
   <img src="https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white" alt="dbt"/>
+  <img src="https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apache-airflow&logoColor=white" alt="Airflow"/>
+  <img src="https://img.shields.io/badge/Prefect-024DFD?style=flat&logo=prefect&logoColor=white" alt="Prefect"/>
+  <img src="https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white" alt="pandas"/>
+</p>
+
+**ML & MLOps**
+<p>
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white" alt="scikit-learn"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
   <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black" alt="HuggingFace"/>
+  <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white" alt="MLflow"/>
+  <img src="https://img.shields.io/badge/Feast-FC4C02?style=flat" alt="Feast"/>
 </p>
 
 **Cloud & Infrastructure**
 <p>
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white" alt="AWS"/>
   <img src="https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white" alt="Azure"/>
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white" alt="Terraform"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apache-airflow&logoColor=white" alt="Airflow"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white" alt="GitHub Actions"/>
 </p>
 
 **Backend & APIs**
@@ -96,9 +108,10 @@ I specialize in **software architecture for AI-driven processes**, focusing on i
 
 **Data Tools & BI**
 <p>
-  <img src="https://img.shields.io/badge/SSIS-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white" alt="SSIS"/>
   <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=power-bi&logoColor=black" alt="Power BI"/>
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white" alt="Streamlit"/>
   <img src="https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white" alt="Tableau"/>
+  <img src="https://img.shields.io/badge/SSIS-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white" alt="SSIS"/>
   <img src="https://img.shields.io/badge/AWS_Glue-FF9900?style=flat&logo=amazon-aws&logoColor=white" alt="AWS Glue"/>
 </p>
 
@@ -107,6 +120,12 @@ I specialize in **software architecture for AI-driven processes**, focusing on i
 ### Side Projects & Learning
 
 ```
+🧪 CreditScope — End-to-End Credit Scoring MLOps
+   ├── PySpark Medallion pipeline (Bronze/Silver/Gold)
+   ├── Feast feature store + MLflow tracking & model registry
+   ├── FastAPI serving + Evidently AI drift monitoring
+   └── Local-first Docker Compose, CI/CD with GitHub Actions
+
 📊 Trad-O — Full-Stack Algorithmic Trading Platform
    ├── Trad-loop: Core engine + REST/WebSocket APIs
    ├── fyGraphr: React dashboard with real-time charting
@@ -114,15 +133,15 @@ I specialize in **software architecture for AI-driven processes**, focusing on i
    ├── Optimus: Advanced optimization (100+ features)
    └── CLI: Typer-based command interface
 
-🤖 LAUREN AI — Local AI Agent
+🤖 LAUREN AI — Self-Hosted AI Agent
    ├── 100% local with Ollama (llama3, deepseek-coder)
    ├── ReAct pattern orchestration
    ├── 21 tools: file ops, trading integration, memory system
-   └── Direct bridge to Trad-O for strategy generation
+   └── Distributed across self-hosted home infrastructure
 
 🎯 Currently Learning
-   ├── MLOps & model deployment pipelines
-   ├── Feature stores & experiment tracking
+   ├── Physics-Informed Neural Networks (M.Sc. research)
+   ├── GCP & BigQuery
    └── Kubernetes for ML workloads
 ```
 
@@ -132,6 +151,8 @@ I specialize in **software architecture for AI-driven processes**, focusing on i
 
 | Degree | Institution | Year |
 |--------|-------------|------|
+| **M.Sc. Applied Mathematics** (PINNs research) | Universidad Nacional de Colombia | In progress |
+| **AI for Developers Bootcamp** (150h, ML & ML Engineering) | Le Wagon | 2026 |
 | **Software Engineering Specialist** | Instituto Tecnológico Metropolitano | 2025 |
 | **Data Science Program** | Correlation One / MinTIC | 2022 |
 | **B.S. Electrical Engineering** | Universidad Nacional de Colombia | 2017 |
